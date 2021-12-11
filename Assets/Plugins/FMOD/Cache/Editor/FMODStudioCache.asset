@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7867714521464176530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NightBGM
+  m_EditorClassIdentifier: 
+  Path: event:/NightBGM
+  Guid:
+    Data1: -13855994
+    Data2: 1107170771
+    Data3: 1704558987
+    Data4: 1153364955
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 34115
+--- !u!114 &-6380991025482319731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoC
+  m_EditorClassIdentifier: 
+  Path: event:/PianoC
+  Guid:
+    Data1: 1646091032
+    Data2: 1134841848
+    Data3: -1501843808
+    Data4: 592561244
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2010
+--- !u!114 &-5724651915751513615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: E:/FMOD/MobiusSound/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637745159962857818
+  FileSizes:
+  - Name: Desktop
+    Value: 2162432
+  Exists: 1
+--- !u!114 &-3157499823236116745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DayBGM
+  m_EditorClassIdentifier: 
+  Path: event:/DayBGM
+  Guid:
+    Data1: 1994152017
+    Data2: 1196857034
+    Data3: -444848222
+    Data4: -1688243820
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60000
+--- !u!114 &-3105039988476671215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoA
+  m_EditorClassIdentifier: 
+  Path: event:/PianoA
+  Guid:
+    Data1: 936353103
+    Data2: 1155833797
+    Data3: 1311299000
+    Data4: -1097020745
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4290
+--- !u!114 &-1859903388867648685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoE
+  m_EditorClassIdentifier: 
+  Path: event:/PianoE
+  Guid:
+    Data1: 659231283
+    Data2: 1140151819
+    Data3: 1691416453
+    Data4: 1119321598
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2074
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 416126967648853714}
+  - {fileID: -5724651915751513615}
+  EditorEvents:
+  - {fileID: -6380991025482319731}
+  - {fileID: 6380184245638551251}
+  - {fileID: 1639425306597976716}
+  - {fileID: 5072008393650931933}
+  - {fileID: -1859903388867648685}
+  - {fileID: 23226390803269762}
+  - {fileID: -3105039988476671215}
+  - {fileID: -7867714521464176530}
+  - {fileID: -3157499823236116745}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5724651915751513615}
+  StringsBanks:
+  - {fileID: 416126967648853714}
+  cacheTime: 637745159962897785
+  cacheVersion: 10
+--- !u!114 &23226390803269762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoF
+  m_EditorClassIdentifier: 
+  Path: event:/PianoF
+  Guid:
+    Data1: 335492925
+    Data2: 1114770605
+    Data3: -1990339186
+    Data4: -487246002
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1930
+--- !u!114 &416126967648853714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: E:/FMOD/MobiusSound/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637745159962897785
+  FileSizes:
+  - Name: Desktop
+    Value: 1048
+  Exists: 1
+--- !u!114 &1639425306597976716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoB
+  m_EditorClassIdentifier: 
+  Path: event:/PianoB
+  Guid:
+    Data1: -360715252
+    Data2: 1209212459
+    Data3: 315241115
+    Data4: -1013044253
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4510
+--- !u!114 &5072008393650931933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoG
+  m_EditorClassIdentifier: 
+  Path: event:/PianoG
+  Guid:
+    Data1: -442553556
+    Data2: 1265786590
+    Data3: -1112833372
+    Data4: -134877169
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1960
+--- !u!114 &6380184245638551251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoD
+  m_EditorClassIdentifier: 
+  Path: event:/PianoD
+  Guid:
+    Data1: -1072026746
+    Data2: 1203869245
+    Data3: -1992458876
+    Data4: -238447642
+  Banks:
+  - {fileID: -5724651915751513615}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2106

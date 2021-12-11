@@ -340,6 +340,7 @@ GameObject:
   - component: {fileID: 7048067946574205471}
   - component: {fileID: 1646907991074784639}
   - component: {fileID: 4354281143824018881}
+  - component: {fileID: 2822176756567745436}
   m_Layer: 0
   m_Name: white(6)
   m_TagString: Untagged
@@ -665,6 +666,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ab946bd98ba5448be2eece72cb9935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2822176756567745436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853282682703160900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 936353103
+      Data2: 1155833797
+      Data3: 1311299000
+      Data4: -1097020745
+    Path: event:/PianoA
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2175247193725365053
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,6 +711,7 @@ GameObject:
   - component: {fileID: 2397497184017552601}
   - component: {fileID: 5761997395674685324}
   - component: {fileID: 7044860647146885703}
+  - component: {fileID: 7510942445973136652}
   m_Layer: 0
   m_Name: white(5)
   m_TagString: Untagged
@@ -1005,6 +1037,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ab946bd98ba5448be2eece72cb9935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7510942445973136652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175247193725365053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -442553556
+      Data2: 1265786590
+      Data3: -1112833372
+      Data4: -134877169
+    Path: event:/PianoG
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2601172336474891752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,6 +1082,7 @@ GameObject:
   - component: {fileID: 3503896099714507047}
   - component: {fileID: 1044612539906847007}
   - component: {fileID: 6902767392502894979}
+  - component: {fileID: 3873688051065485411}
   m_Layer: 0
   m_Name: white(7)
   m_TagString: Untagged
@@ -1345,6 +1408,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ab946bd98ba5448be2eece72cb9935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3873688051065485411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2601172336474891752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -360715252
+      Data2: 1209212459
+      Data3: 315241115
+      Data4: -1013044253
+    Path: event:/PianoB
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2603324917395541693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,6 +2175,7 @@ GameObject:
   - component: {fileID: 1485732251799275460}
   - component: {fileID: 5494745327908250873}
   - component: {fileID: 5227567384350963670}
+  - component: {fileID: 1874909765325297870}
   m_Layer: 0
   m_Name: white(3)
   m_TagString: Untagged
@@ -2407,6 +2501,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ab946bd98ba5448be2eece72cb9935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1874909765325297870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544700074886268172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 659231283
+      Data2: 1140151819
+      Data3: 1691416453
+      Data4: 1119321598
+    Path: event:/PianoE
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &5295322629186956965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3191,6 +3315,7 @@ GameObject:
   - component: {fileID: 8335459970679021185}
   - component: {fileID: 3095905036815117484}
   - component: {fileID: 6215373687911992114}
+  - component: {fileID: 7858467810759761262}
   m_Layer: 0
   m_Name: white(1)
   m_TagString: Untagged
@@ -3516,6 +3641,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ab946bd98ba5448be2eece72cb9935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7858467810759761262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335459970679021186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 1646091032
+      Data2: 1134841848
+      Data3: -1501843808
+      Data4: 592561244
+    Path: event:/PianoC
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8335459971374559733
 GameObject:
   m_ObjectHideFlags: 0
@@ -3531,6 +3686,7 @@ GameObject:
   - component: {fileID: 8335459971374559732}
   - component: {fileID: 4425804861073462623}
   - component: {fileID: 2722147633047230728}
+  - component: {fileID: 4701858051105548727}
   m_Layer: 0
   m_Name: white(2)
   m_TagString: Untagged
@@ -3856,6 +4012,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ab946bd98ba5448be2eece72cb9935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4701858051105548727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335459971374559733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -1072026746
+      Data2: 1203869245
+      Data3: -1992458876
+      Data4: -238447642
+    Path: event:/PianoD
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &9180314281222963306
 GameObject:
   m_ObjectHideFlags: 0
@@ -3871,6 +4057,7 @@ GameObject:
   - component: {fileID: 248151061105914636}
   - component: {fileID: 3940571135231046282}
   - component: {fileID: 2729545301539918025}
+  - component: {fileID: 3004382949384203764}
   m_Layer: 0
   m_Name: white(4)
   m_TagString: Untagged
@@ -4196,3 +4383,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ab946bd98ba5448be2eece72cb9935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3004382949384203764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9180314281222963306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 335492925
+      Data2: 1114770605
+      Data3: -1990339186
+      Data4: -487246002
+    Path: event:/PianoF
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

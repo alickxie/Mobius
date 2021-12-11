@@ -22,27 +22,37 @@ public class TopDownCharacterMover : MonoBehaviour
     public Camera look;
     public Vector3 offset;
     public SpawnManager spawnManager;
+    private LightingManager lightingManager;
 
     private void Awake()
     {
         _input = GetComponent<InputHandler>();
+        lightingManager = GameObject.Find("LightManager").GetComponent<LightingManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
         var targetVector = new Vector3(0, 0, _input.InputVector.y);
-        var movementVector = MoveTowardTarget(targetVector);
 
-        if (!RotateTowardMouse)
-        {
-            RotateTowardMovementVector(movementVector);
+        if (_input.InputVector.y > 0){
+            var movementVector = MoveTowardTarget(targetVector);
         }
-        if (RotateTowardMouse)
+
+        if (_input.InputVector.y == 1)
         {
-            RotateFromMouseVector();
+            lightingManager.SunRotate();
         }
+
+        // if (!RotateTowardMouse)
+        // {
+        //     RotateTowardMovementVector(movementVector);
+        // }
+        // if (RotateTowardMouse)
+        // {
+        //     RotateFromMouseVector();
+        // }
 
         look.transform.position = this.gameObject.transform.position + offset;
     }

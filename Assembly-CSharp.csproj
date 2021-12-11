@@ -36,13 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\InputHandler.cs" />
-     <Compile Include="Assets\Scripts\TopDownCharacterMover.cs" />
-     <Compile Include="Assets\Scripts\PianoSound.cs" />
-     <Compile Include="Assets\Scripts\SpawnManager.cs" />
      <Compile Include="Assets\Scripts\RoadSpawner.cs" />
-     <Compile Include="Assets\Scripts\LightingPreset.cs" />
+     <Compile Include="Assets\Scripts\InputHandler.cs" />
      <Compile Include="Assets\Scripts\LightingManager.cs" />
+     <Compile Include="Assets\Scripts\PianoSound.cs" />
+     <Compile Include="Assets\Scripts\LightingPreset.cs" />
+     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+     <Compile Include="Assets\Scripts\TopDownCharacterMover.cs" />
+     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:\Unity\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -614,91 +615,107 @@
         <HintPath>E:\Unity\2020.3.19f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>E:\Unity\Project\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\Alick\Desktop\Mobius\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{9f23ca02-9cbc-3499-277c-86561eedf456}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{e1846e3a-d2d6-85f2-6817-ebaf3a720151}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{9742c4fd-b99a-9624-2687-56861489a115}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{6fd16c02-6a07-02b5-b0ab-cc896cc7a748}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
